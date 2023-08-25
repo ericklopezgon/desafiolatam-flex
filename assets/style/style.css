@@ -1,0 +1,99 @@
+/* raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+main img {
+    width: 100%;
+}
+
+.articulo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -5px;
+    background-color: black;
+    padding: 55px;
+}
+
+.articulo .box {
+    color: white;
+    text-align: left;
+    padding-left: 95px;
+    padding-top: 21px;
+    padding-right: 53px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.articulo .box2 {
+    padding-right: 150px;
+    padding-top: -10px;
+    padding-left: 53px;
+}
+
+.articulo .box2 img {
+    width: 400px;
+} 
+/* Existe alguna forma de agregar el width de la imagen a ".articulo .box2" para no tener que crear las lienas de 46 a 48?*/
+
+.iconos {
+    padding: 75px;
+    background-color: #1E1A13;
+    justify-content: space-around;
+    color:white;
+}
+
+.iconos .logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.iconos h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.iconos h4 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 30px;
+
+}
+
+.galeria {
+    display: flex;
+    background-color: black;
+    padding: 73px;
+    justify-content: center;
+}
+
+.galeria img{
+    width: 320px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #1E1A13;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    padding: 35px;
+}
